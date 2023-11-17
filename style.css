@@ -4,17 +4,15 @@
   --Grayish-blue: hsl(220, 15%, 55%);
   --Dark-blue: hsl(218, 44%, 22%);
 }
-*,
-::before,
-::after {
+* {
   box-sizing: border-box;
-  font-family: Outfit, sans-serif;
   margin: 0px;
   padding: 0px;
 }
 body {
   background-color: var(--Light-gray);
   margin-top: 12px;
+  font-family: Outfit, sans-serif;
 }
 .attribution {
   font-size: 11px;
